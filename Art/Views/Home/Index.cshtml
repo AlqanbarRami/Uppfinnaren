@@ -1,0 +1,20 @@
+﻿@model ArtistsViewModel
+@{
+    ViewData["Title"] = "Paintings Shop";
+}
+
+ <div class="select-container-main">
+        <div class="select-container-sub">
+        <div class="paintings">  
+             <a class="my-paintings" asp-controller="Painting" asp-action="AllPainting" >Display All Paintings </a>
+        </div>
+        <div class="all-artists">
+           <a class="my-artists" asp-controller="Artist" asp-action="getAllArtist">Display All Artists </a> 
+       </div>
+        <div class="contact">
+             <a class="my-contact" asp-controller="Artist" asp-action="Artists">Display All Contacts info</a>
+        </div>
+    </div>
+    
+</div>
+

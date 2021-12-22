@@ -1,0 +1,29 @@
+﻿@model PaintingViewModel
+@{
+    ViewData["Title"] = "Sonjas Paintings";
+}
+
+    @foreach(var item in Model.Paintings)
+    {
+         <div class="container">
+    <div class = "painting-container">
+        <div class="image-div">
+           <img class="image" src="@item.Image" alt="Image"/>       
+         </div>
+        <div class="details"> 
+            <a  class="artist-name"asp-controller="Artist" asp-action="Details" asp-route-id="@item.ArtistId"> @item.Artist.FirstName @item.Artist.LastName </a> 
+            <div class="details-des">
+            <span><strong>Painting Id :</strong>  @item.PainingId</span>
+            <span><strong>Subject :</strong> @item.PaintingName</span>
+            <span><strong>Type :</strong> @item.PaintingType</span>
+            <span><strong>Size :</strong> @item.Length x @item.Width CM </span>
+            <span><strong>Drawing Year :</strong> @item.DrawingYear</span>
+            <span><strong>Price :</strong> @item.Price $</span><br>
+            <a asp-controller="Painting" asp-action="getPainting" asp-route-id="@item.PainingId"><strong>SEE FULL IMAGE</strong></a>
+            </div>
+            
+        </div>
+    </div>
+           </div>
+    
+    }

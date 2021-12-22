@@ -1,0 +1,25 @@
+﻿@model IEnumerable<Artist>
+
+@{
+    ViewData["Title"] = "Sonjas Contact Info";
+}
+    @foreach(var item in Model)
+    {
+        <div>
+             <div class="container">
+    <div class = "art-container">
+        <div class="image-div-artist">
+            <img class="image-artist" src="@item.ImageArtist" alt="Image"/>       
+         </div>
+        <div class="details-artist"> 
+            <span><strong>Full Name :</strong> @item.FirstName @item.LastName</span>
+            <span><strong>Country :</strong> @item.Country</span>
+            <span><strong>Email :</strong> @item.Email</span>
+            <span><strong>Phone Number :</strong> @item.PhoneNumber</span>   
+        </div>
+    </div>
+</div>
+    
+        </div>
+    }
+

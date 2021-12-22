@@ -1,0 +1,11 @@
+﻿@model PaintingViewModel
+
+    @foreach(var item in Model.Paintings)
+    {
+         <div class="get-container">
+         
+                <img class="one-image" src="@item.Image" alt="Image"/>       
+          
+               </div>
+    
+    }

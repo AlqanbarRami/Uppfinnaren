@@ -1,0 +1,24 @@
+﻿@model ArtistsViewModel
+
+@{
+    ViewData["Title"] = "All Artists";
+}
+<head>
+    <link href="~/Content/GetAllArtists.css" rel="stylesheet" />
+</head>
+  
+     <div class="container-artist">
+         
+    @foreach(var item in Model.Artists)
+    {
+    <div class="container-artist-sub">
+    <div class="name-for-artists">
+        <span >@item.FirstName @item.LastName</span>
+    </div>
+    <div class="artist-button-div">
+        <a class="all-paintingFor" asp-controller="Painting" asp-action="List" asp-route-id="@item.ArtistId"> All Painings For @item.FirstName </a>   
+        <a class="contacts-infoFor" asp-controller="Artist" asp-action="Details" asp-route-id="@item.ArtistId">Contacts Info For @item.FirstName</a>ِ  
+    </div>
+</div>
+    }
+</div>

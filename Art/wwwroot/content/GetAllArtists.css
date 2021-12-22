@@ -1,0 +1,56 @@
+﻿.container-artist {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.container-artist-sub {
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    width: 60%;
+    background-color: #F5EEDC;
+    height: auto;
+    align-items: center;
+    padding: 40px 0 20px 0;
+    margin-top: 50px;
+}
+
+.name-for-artists {
+    font-weight: bolder;
+    font-size: x-large;
+    margin: 10px;
+}
+
+.artist-button-div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.all-paintingFor,
+.contacts-infoFor {
+    padding: 20px;
+    font-weight: bolder;
+    background-color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 20px;
+}
+
+    .all-paintingFor:hover,
+    .contacts-infoFor:hover {
+        background-color: darkgray;
+        transform: scale(1.2);
+    }
+
+    a{
+        text-decoration:none;
+        color:black;
+    }

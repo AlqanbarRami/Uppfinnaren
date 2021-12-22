@@ -1,0 +1,51 @@
+﻿.container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.art-container {
+    display: flex;
+    flex-direction: row;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    width: 50%;
+    align-items: center;
+    margin: 20px;
+    background-color: white;
+
+}
+
+
+.image-div-artist {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
+
+.image-artist {
+    width: 100%;
+    height: auto;
+}
+
+.details-artist {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    padding: 20px 0 20px 0;
+}
+
+
+
+span {
+    padding: 10px;
+}
