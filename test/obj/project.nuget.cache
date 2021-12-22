@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1c3gUso6xaryJg1ETpIIpAMtEqeRTajYBgjo2hEeo+5yhGbkmNtBwkdfEbckRVcW/5CE2AnpKt3BigOyn9m0jw==",
+  "dgSpecHash": "N0/SlYzCRu3rPNerL+RWvpBZz3E48FIAYZUsdRSNpcjVF73Z0TS/eB2Z+WBfk8rXcLUBDEJAxr8uMLBpzStsHQ==",
   "success": true,
-  "projectFilePath": "c:\\Users\\ramia\\source\\repos\\Art2\\test\\test.csproj",
+  "projectFilePath": "C:\\Users\\ramia\\source\\repos\\Art2\\test\\test.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ramia\\.nuget\\packages\\coverlet.collector\\3.0.2\\coverlet.collector.3.0.2.nupkg.sha512",
     "C:\\Users\\ramia\\.nuget\\packages\\humanizer.core\\2.2.0\\humanizer.core.2.2.0.nupkg.sha512",
