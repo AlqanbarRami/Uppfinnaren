@@ -41,6 +41,42 @@ namespace test
             }
         }
 
+        [Fact]
+        public void TestGetArtistDetailsById()
+        {
+            var options = new DbContextOptionsBuilder<AppDbContext>()
+            .UseInMemoryDatabase("Painings").Options;
+            using (var appDbContext = new AppDbContext(options))
+            {
+                ArtistRepository artist = new ArtistRepository(appDbContext);
+                var myArtist = artist.AllArtist;
+                List<Artist> allArtistInfo  = new List<Artist>();
+                string artistName = "";
+                foreach (var art in myArtist)
+                {
+                    if(art.ArtistId == 1){
+                        artistName = art.FirstName;
+                        allArtistInfo.Add(art);
+                    }
+                    
+                }
+                //For just the name;
+                var expectedName = artistName;
+                var actualName = artist.AllArtist.Where(a=>a.FirstName == "Sonja").Select(n=>n.FirstName).Single(); 
+                // did I get all info For Sonja? 
+                var expectedNumberOfItmes = allArtistInfo.Count;
+                var actualNumberOfItems = artist.AllArtist.Where(a=> a.ArtistId == 1 ).Count();
+                // I don't want another Artist just Sonja
+                int NotExpectedId = 3;
+                int actualId = allArtistInfo.Select(a=>a.ArtistId).FirstOrDefault();
+
+
+                Assert.Same(expectedName, actualName);
+                Assert.Equal(expectedNumberOfItmes,actualNumberOfItems);
+                Assert.NotSame(NotExpectedId,actualId);
+            }
+        }
+
 
 
         [Fact]

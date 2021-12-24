@@ -7181,11 +7181,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\ramia\\source\\repos\\Art2\\Art\\Art.csproj",
+      "projectUniqueName": "c:\\Users\\ramia\\OneDrive\\Skrivbord\\Art\\Uppfinnaren\\Art\\Art.csproj",
       "projectName": "Art",
-      "projectPath": "c:\\Users\\ramia\\source\\repos\\Art2\\Art\\Art.csproj",
+      "projectPath": "c:\\Users\\ramia\\OneDrive\\Skrivbord\\Art\\Uppfinnaren\\Art\\Art.csproj",
       "packagesPath": "C:\\Users\\ramia\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\ramia\\source\\repos\\Art2\\Art\\obj\\",
+      "outputPath": "c:\\Users\\ramia\\OneDrive\\Skrivbord\\Art\\Uppfinnaren\\Art\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

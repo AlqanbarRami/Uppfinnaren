@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\Users\\ramia\\source\\repos\\Art2\\Art\\Art.csproj",
+  "FilePath": "c:\\Users\\ramia\\OneDrive\\Skrivbord\\Art\\Uppfinnaren\\Art\\Art.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "5.0",
@@ -15619,53 +15619,53 @@
   "RootNamespace": "Art",
   "Documents": [
     {
-      "FilePath": "c:\\Users\\ramia\\source\\repos\\Art2\\Art\\Views\\Home\\Index.cshtml",
-      "TargetPath": "Views\\Home\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\ramia\\source\\repos\\Art2\\Art\\Views\\Painting\\List.cshtml",
-      "TargetPath": "Views\\Painting\\List.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\ramia\\source\\repos\\Art2\\Art\\Views\\Shared\\_Layout.cshtml",
+      "FilePath": "c:\\Users\\ramia\\OneDrive\\Skrivbord\\Art\\Uppfinnaren\\Art\\Views\\Shared\\_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\ramia\\source\\repos\\Art2\\Art\\Views\\Artist\\getAllArtist.cshtml",
-      "TargetPath": "Views\\Artist\\getAllArtist.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\ramia\\source\\repos\\Art2\\Art\\Views\\Artist\\Details.cshtml",
+      "FilePath": "c:\\Users\\ramia\\OneDrive\\Skrivbord\\Art\\Uppfinnaren\\Art\\Views\\Artist\\Details.cshtml",
       "TargetPath": "Views\\Artist\\Details.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\ramia\\source\\repos\\Art2\\Art\\Views\\_ViewImports.cshtml",
-      "TargetPath": "Views\\_ViewImports.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\ramia\\source\\repos\\Art2\\Art\\Views\\Painting\\AllPainting.cshtml",
-      "TargetPath": "Views\\Painting\\AllPainting.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\ramia\\source\\repos\\Art2\\Art\\Views\\_ViewStart.cshtml",
-      "TargetPath": "Views\\_ViewStart.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\ramia\\source\\repos\\Art2\\Art\\Views\\Painting\\getPainting.cshtml",
+      "FilePath": "c:\\Users\\ramia\\OneDrive\\Skrivbord\\Art\\Uppfinnaren\\Art\\Views\\Painting\\getPainting.cshtml",
       "TargetPath": "Views\\Painting\\getPainting.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\ramia\\source\\repos\\Art2\\Art\\Views\\Artist\\Artists.cshtml",
+      "FilePath": "c:\\Users\\ramia\\OneDrive\\Skrivbord\\Art\\Uppfinnaren\\Art\\Views\\_ViewImports.cshtml",
+      "TargetPath": "Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\ramia\\OneDrive\\Skrivbord\\Art\\Uppfinnaren\\Art\\Views\\Painting\\List.cshtml",
+      "TargetPath": "Views\\Painting\\List.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\ramia\\OneDrive\\Skrivbord\\Art\\Uppfinnaren\\Art\\Views\\Painting\\AllPainting.cshtml",
+      "TargetPath": "Views\\Painting\\AllPainting.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\ramia\\OneDrive\\Skrivbord\\Art\\Uppfinnaren\\Art\\Views\\Artist\\Artists.cshtml",
       "TargetPath": "Views\\Artist\\Artists.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\ramia\\OneDrive\\Skrivbord\\Art\\Uppfinnaren\\Art\\Views\\Home\\Index.cshtml",
+      "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\ramia\\OneDrive\\Skrivbord\\Art\\Uppfinnaren\\Art\\Views\\_ViewStart.cshtml",
+      "TargetPath": "Views\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\ramia\\OneDrive\\Skrivbord\\Art\\Uppfinnaren\\Art\\Views\\Artist\\getAllArtist.cshtml",
+      "TargetPath": "Views\\Artist\\getAllArtist.cshtml",
       "FileKind": "mvc"
     }
   ],
