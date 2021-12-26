@@ -15629,6 +15629,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\ramia\\OneDrive\\Skrivbord\\Art\\Uppfinnaren\\Art\\Views\\Painting\\GetPaintingByType.cshtml",
+      "TargetPath": "Views\\Painting\\GetPaintingByType.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\ramia\\OneDrive\\Skrivbord\\Art\\Uppfinnaren\\Art\\Views\\Painting\\getPainting.cshtml",
       "TargetPath": "Views\\Painting\\getPainting.cshtml",
       "FileKind": "mvc"
@@ -15636,6 +15641,11 @@
     {
       "FilePath": "c:\\Users\\ramia\\OneDrive\\Skrivbord\\Art\\Uppfinnaren\\Art\\Views\\_ViewImports.cshtml",
       "TargetPath": "Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\ramia\\OneDrive\\Skrivbord\\Art\\Uppfinnaren\\Art\\Views\\Painting\\GetAllType.cshtml",
+      "TargetPath": "Views\\Painting\\GetAllType.cshtml",
       "FileKind": "mvc"
     },
     {

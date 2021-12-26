@@ -56,7 +56,7 @@ namespace Art.Models
             {
                 PainingId = 3,
                 PaintingName = "Behind the scene",
-                PaintingType = "Oil painting",
+                PaintingType = "Oil Painting",
                 Length = 52,
                 Width = 42,
                 DrawingYear = "2021",
@@ -70,7 +70,7 @@ namespace Art.Models
             {
                 PainingId = 4,
                 PaintingName = "All Stars and Stripes",
-                PaintingType = "Acrylic painting",
+                PaintingType = "Acrylic Painting",
                 Length = 92,
                 Width = 92,
                 DrawingYear = "2021",
@@ -82,7 +82,7 @@ namespace Art.Models
             {
                 PainingId = 5,
                 PaintingName = "Marco Barberio",
-                PaintingType = "Acrylic painting",
+                PaintingType = "Acrylic Painting",
                 Length = 49,
                 Width = 49,
                 DrawingYear = "2021",
@@ -120,7 +120,7 @@ namespace Art.Models
             {
                 PainingId = 8,
                 PaintingName = "Glory of nature",
-                PaintingType = "Acrylic painting",
+                PaintingType = "Acrylic Painting",
                 Length = 86,
                 Width = 76  ,
                 DrawingYear = "2021",
@@ -134,7 +134,7 @@ namespace Art.Models
             {
                 PainingId = 9,
                 PaintingName = "Morning glory 15",
-                PaintingType = "Acrylic painting",
+                PaintingType = "Acrylic Painting",
                 Length = 86,
                 Width = 76  ,
                 DrawingYear = "2021",
@@ -149,7 +149,7 @@ namespace Art.Models
             {
                 PainingId = 10,
                 PaintingName = "Ukrainian Winter",
-                PaintingType = "Oil painting",
+                PaintingType = "Oil Painting",
                 Length = 96,
                 Width = 76  ,
                 DrawingYear = "2020",

@@ -10,6 +10,7 @@ namespace Paintings.Controllers
     {
         private readonly IPaintingRepository paintingRepository;
         private readonly IArtistRepository artistRepository;
+   
 
 
         public PaintingController(IPaintingRepository paintingRepository, IArtistRepository artistRepository)
@@ -50,7 +51,20 @@ namespace Paintings.Controllers
             });
         }
 
-    
+        public IActionResult GetPaintingByType(string type)
+        {
+            IEnumerable<Painting> paint;
+            paint = paintingRepository.AllPainting.Where(p => p.PaintingType == type) ;
+            return View(new PaintingViewModel { Paintings = paint});
+        }
+
+        public IActionResult GetAllType()
+        {
+            IEnumerable<Painting> allTypes;
+            allTypes = paintingRepository.AllPainting.GroupBy(p => p.PaintingType.ToLower()).Select(grp => grp.First())
+                   .ToList();
+            return View(new PaintingViewModel { Paintings = allTypes.Distinct() }); //Distinct Just to be sure No repeat!
+        }
 
 
 

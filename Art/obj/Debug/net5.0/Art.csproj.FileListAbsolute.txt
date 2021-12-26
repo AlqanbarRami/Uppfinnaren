@@ -448,3 +448,5 @@ c:\Users\ramia\OneDrive\Skrivbord\Art\Uppfinnaren\Art\obj\Debug\net5.0\Art.dll
 c:\Users\ramia\OneDrive\Skrivbord\Art\Uppfinnaren\Art\obj\Debug\net5.0\ref\Art.dll
 c:\Users\ramia\OneDrive\Skrivbord\Art\Uppfinnaren\Art\obj\Debug\net5.0\Art.pdb
 c:\Users\ramia\OneDrive\Skrivbord\Art\Uppfinnaren\Art\obj\Debug\net5.0\Art.genruntimeconfig.cache
+C:\Users\ramia\OneDrive\Skrivbord\Art\Uppfinnaren\Art\obj\Debug\net5.0\Razor\Views\Painting\GetPaintingByType.cshtml.g.cs
+C:\Users\ramia\OneDrive\Skrivbord\Art\Uppfinnaren\Art\obj\Debug\net5.0\Razor\Views\Painting\GetAllType.cshtml.g.cs

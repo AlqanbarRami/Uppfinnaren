@@ -1,0 +1,16 @@
+﻿@model PaintingViewModel
+@{
+    ViewData["Title"] = "All types in Market";
+}
+  <div class="alltype-container">
+     <div class="alltype-div">
+@foreach (var item in Model.Paintings)
+{
+
+           
+                <a class="type" asp-controller="Painting" asp-action="GetPaintingByType" asp-route-type= "@item.PaintingType"><strong> @item.PaintingType </strong></a>   
+               
+
+}
+      </div>
+       </div>
