@@ -73,7 +73,7 @@ namespace test
 
                 Assert.Same(expectedName, actualName);
                 Assert.Equal(expectedNumberOfItmes,actualNumberOfItems);
-                Assert.NotSame(NotExpectedId,actualId);
+                Assert.NotEqual(NotExpectedId,actualId);
             }
         }
 
